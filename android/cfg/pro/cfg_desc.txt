@@ -1,0 +1,19 @@
+/*ini*/ 一定要以此開頭, 才是正確的檔案!
+* v1.1 at 2021-02-9
+
+latest_ver=4.10
+pure_ver=4.10x
+
+* 換頁時是否顯示內評dialog;Y/N;至少SpeechClick數量&&至少已經安裝天數
+rate_card_flag=Y;60;0
+
+* 拼圖結束時是否顯示內評dialog;至少SpeechClick數量||至少PuzzleSuccess數量;至少已經安裝天數
+rate_puzzle_flag=Y;50;10;0
+
+* 答題結束時是否顯示內評dialog;至少答對數量;至少已經安裝天數
+rate_quiz_flag=Y;25;0
+
+* 下面是用在免費版本
+setting_show_flag=Y;30;0
+
+vm_clear_days=100
