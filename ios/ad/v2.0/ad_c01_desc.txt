@@ -40,3 +40,8 @@ ad_quiz_flag=R;0;6;8
 * dealy secs show card ad
 ad_delay_show=1.3
 
+* FullAD 冷卻機制, 點擊率高於60%/冷卻?hr/冷卻次數(PASS次數)
+ad_full_cool=60;1;5
+* BannerAD 冷卻機制, 點擊率高於60%/冷卻?hr/冷卻次數(PASS次數)
+ad_banner_cool=60;1;5
+
