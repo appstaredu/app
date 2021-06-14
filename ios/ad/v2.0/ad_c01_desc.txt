@@ -40,6 +40,9 @@ ad_quiz_flag=R;0;6;8
 * dealy secs show card ad
 ad_delay_show=1.3
 
+* banner;full ad request fail, 下次要再隔?秒才可request
+ad_req_secs=60;30
+
 * FullAD 冷卻機制, 點擊率高於60%/冷卻?mins&&冷卻次數(PASS次數)
 ad_full_cool=60;4;20
 * BannerAD 冷卻機制, 基數3(1分鐘內達到3次click時觸發,2分鐘內達到4次click時觸發,...以此類推到10分鐘內達到12次);冷卻240mins
