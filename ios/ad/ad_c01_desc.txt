@@ -40,3 +40,6 @@ ad_quiz_flag=R;0;6;8
 * dealy secs show card ad
 ad_delay_show=1.3
 
+* Banner;Full , 當Request Ad Fail 時需要隔多久sec秒才可以再次Request
+ad_req_secs=60;30
+
