@@ -40,3 +40,7 @@ ad_quiz_flag=Y;0;5;7;20^Y;0;5;8;20
 
 * dealy secs show card ad
 ad_delay_show=1.1
+
+** 只用在abc, 注音
+** home promote card, Y=ON;至少已經安裝天數;至少Click數量
+home_promote_flag=Y;0;40
