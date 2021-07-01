@@ -43,4 +43,4 @@ ad_delay_show=1.1
 
 ** 只用在abc, 注音
 ** home promote card, Y=ON;至少已經安裝天數;至少Click數量
-home_promote_flag=Y;0;40
+home_promote_flag=Y;0;50
