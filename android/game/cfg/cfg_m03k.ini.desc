@@ -10,6 +10,7 @@ ad_rect_admob=ca-app-pub-6468635438111389/1712175067
 ad_banner_admob=ca-app-pub-6468635438111389/1549836616
 ad_reward_admob=ca-app-pub-6468635438111389/1915710267
 ad_app_id_admob=ca-app-pub-6468635438111389~1548523535
+// =xxx ->hidden  
 
 ** Home;Packs;Levels;PlayPuzzle;PuzzlePause;PlayQuiz
 ad_banner_on_off_flag=N;N;N;Y;Y;Y
@@ -24,6 +25,9 @@ log_reg_phone_url=
 log_level_pass_url=
 log_level_pass_min_level=0
 
+// 0 = OFF
 ad_quiz_full_count=7
 
+** 是否顯示 myapps dialog; (F=強制顯示;Y=有條件顯示;N=強制不顯示);安裝天數;完成次數
 show_myapps_flag=Y;0;10
+

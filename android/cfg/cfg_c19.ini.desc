@@ -26,7 +26,7 @@ ad_banner_on_off_flag=N;N;Y;N;N;Y;Y;Y;Y^N;N;Y;N;N;Y;Y;Y;Y
 offline_cards=5
 ad_full_count=11
 
-** 是否顯示 AD & myapps dialog; (F=強制顯示;Y=有條件顯示;N=強制不顯示);安裝天數;speech次數;完成puzzle次數;完成VM卡張數
+** 是否顯示 myapps dialog; (F=強制顯示;Y=有條件顯示;N=強制不顯示);安裝天數;speech次數;完成puzzle次數;完成VM卡張數
 show_myapps_flag=Y;0;30;8;5^Y;0;44;13;7
 	
 ** Card;Quiz
