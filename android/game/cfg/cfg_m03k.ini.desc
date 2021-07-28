@@ -28,6 +28,6 @@ log_level_pass_min_level=0
 // 0 = OFF
 ad_quiz_full_count=7
 
-** 是否顯示 myapps dialog; (F=強制顯示;Y=有條件顯示;N=強制不顯示);安裝天數;完成次數
-show_myapps_flag=Y;0;10
+** 是否顯示 myapps dialog; (F=強制顯示;Y=有條件顯示;N=強制不顯示);安裝天數;全部完成關卡次數
+show_myapps_flag=Y;0;20
 
