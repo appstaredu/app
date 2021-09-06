@@ -1,6 +1,6 @@
 /*ini*/
-* ver 1.0 for c19 at Android
-** create at 2021-5-21, Update at 2021-5-21
+* ver 1.2 for c19 at Android
+** create at 2021-5-21, Update at 2021-9-3
 
 latest_ver=4.12
 pure_ver=4.12x
@@ -11,6 +11,9 @@ rate_quiz_flag=Y;20;0
 
 ** 是否顯示 rate dialog;至少Click數量;至少已經安裝天數 ;至少離上次提醒隔多少天數**
 rate_promote_flag=Y;30;0;1^Y;40;0;1
+
+** 是否顯示 smart rating dialog;至少Click數量;拼圖完成次數;Quiz答對次數;至少已經安裝天數**
+smart_rate_flag=Y;50;10;20;0
 
 ad_full_admob=ca-app-pub-6468635438111389/9110445751
 ad_banner_admob=ca-app-pub-6468635438111389/7633712553
