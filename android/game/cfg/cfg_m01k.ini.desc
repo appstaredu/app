@@ -2,8 +2,8 @@
 * ver 1.0 for m01k at Android
 ** create at 2021-8-3, Update at 2021-8-3
 
-latest_ver=3.10
-pure_ver=3.10x
+latest_ver=3.20
+pure_ver=3.20x
 
 ad_full_admob=ca-app-pub-6468635438111389/8278314699
 ad_rect_admob=ca-app-pub-6468635438111389/4890568177
@@ -28,6 +28,7 @@ show_myapps_flag=Y;0;10
 
 rate_puzzle_flag=N;25;0
 
+// from v3.20 
 // 智慧評分, Y/N;至少完成15次的挑戰;至少安裝天數;user選幾顆星星可以真正評分
 smart_rate_flag=N;15;0;5
 
