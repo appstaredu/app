@@ -1,9 +1,13 @@
 /*ini*/
-* ver 1.2 for c19 at Android
+* ver 1.3 for c19 at Android
 ** create at 2021-5-21, Update at 2021-9-3
 
 latest_ver=4.12
 pure_ver=4.12x
+
+
+** 當app版本小於此值, 在HomeMenu顯示Update按鍵, add at 2022-11-9 v1.3
+update_ver=1.02
 
 rate_card_flag=Y;40;0
 rate_puzzle_flag=Y;30;10;0
@@ -28,6 +32,9 @@ ad_banner_on_off_flag=N;N;Y;N;N;Y;Y;Y;Y^N;N;Y;N;N;Y;Y;Y;Y
 
 offline_cards=5
 ad_full_count=11
+
+** 全頁廣告從關閉到顯示最短間隔秒數, [Card;Quiz], add at 2022-11-9 v1.3
+ad_full_req_min_secs=20;15
 
 ** 是否顯示 myapps dialog; (F=強制顯示;Y=有條件顯示;N=強制不顯示);安裝天數;speech次數;完成puzzle次數;完成VM卡張數
 show_myapps_flag=Y;0;30;8;5^Y;0;44;13;7
