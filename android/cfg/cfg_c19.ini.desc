@@ -27,8 +27,12 @@ ad_app_id_admob=ca-app-pub-6468635438111389~4680246153
 ** firebase GA log
 fga_enabled=Y
 
-** Home;Collection;Card;Puzzle,Quiz
+** Home;Collection;Card;Puzzle x5,Quiz
 ad_banner_on_off_flag=N;N;Y;N;N;Y;Y;Y;Y^N;N;Y;N;N;Y;Y;Y;Y
+
+** add from 2022-11-11 ¨ú¥N ad_banner_on_off_flag
+** Home;Collection;Card;Puzzle,Quiz
+ad_banner_on_off_flag_v2=N;N;Y;Y;Y
 
 offline_cards=5
 ad_full_count=11
