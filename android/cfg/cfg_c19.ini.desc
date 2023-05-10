@@ -7,7 +7,7 @@ pure_ver=4.12x
 
 
 ** 當app版本小於此值, 在HomeMenu顯示Update按鍵, add at 2022-11-9 v1.3
-update_ver=1.02
+update_ver=1.03
 
 rate_card_flag=Y;40;0
 rate_puzzle_flag=Y;30;10;0
