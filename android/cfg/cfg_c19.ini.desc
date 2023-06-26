@@ -52,6 +52,9 @@ ad_card_flag=Y;0;50;12;6
 * 是否在Quiz顯示AD,F=強制顯示,Y=有條件顯示,N=強制不顯示,R=等待內評&&安裝天數;banner免費次數;全頁廣告計次0=OFF;無Internet提示
 ad_quiz_flag=Y;0;5;7;20^Y;0;5;8;20
 
+* 2023.6.26 增加用於有兩個廣告ID, _0(原有) & banner1(中等限價) , 當_0顯示超過該次數, 則重新reload ad_banner1(中等限價)
+ad_banner1_reload_count=5
+
 * dealy secs show card ad
 ad_delay_show=1.1
 
