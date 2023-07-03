@@ -19,10 +19,22 @@ rate_promote_flag=Y;30;0;1^Y;40;0;1
 ** 琌陪ボ smart rating dialog;ぶClick计秖;瓜ЧΘΩ计;Quiz氮癸Ω计;ぶ竒杆ぱ计**;单碭琍硈play坝┍
 smart_rate_flag=Y;50;10;20;0;5
 
-ad_full_admob=ca-app-pub-6468635438111389/9110445751
+** for old
+ad_full_admob=ca-app-pub-6468635438111389/9110445751 
+** from v4.76, 0=Μ(程ㄎて) ,1=蔼Μ痲(い单基)
+ad_full_admob_0=ca-app-pub-1746153038076816/6251410820
+ad_full_admob_1=ca-app-pub-6468635438111389/9110445751
+
+** for old
 ad_banner_admob=ca-app-pub-6468635438111389/7633712553
+ad_banner_admob_0=ca-app-pub-1746153038076816/7568625257
+** from v4.76, 0=Μ(程ㄎて) ,1=蔼Μ痲(い单基)
+ad_banner_admob_1=ca-app-pub-6468635438111389/7633712553
+
 ad_reward_admob=ca-app-pub-6468635438111389/9991618550
 ad_app_id_admob=ca-app-pub-6468635438111389~4680246153
+
+ad_banner_admob
 
 ** firebase GA log
 fga_enabled=Y
