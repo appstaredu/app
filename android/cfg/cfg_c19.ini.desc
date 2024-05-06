@@ -43,26 +43,29 @@ fga_enabled=Y
 ad_banner_on_off_flag=N;N;Y;N;N;Y;Y;Y;Y^N;N;Y;N;N;Y;Y;Y;Y
 
 ** add from 2022-11-11 取代 ad_banner_on_off_flag
-** Home;Collection;Card;Puzzle,Quiz
-ad_banner_on_off_flag_v2=N;N;Y;Y;Y
+** Home;Collection;Card;Puzzle,Quiz;MemoryMain;MemoryPlay
+ad_banner_on_off_flag_v2=N;N;Y;Y;Y;Y;Y
 
 offline_cards=5
 ad_full_count=11
 
 ** 全頁廣告從關閉到顯示最短間隔秒數, [Card;Quiz], add at 2022-11-9 v1.3
-ad_full_req_min_secs=20;15
+ad_full_req_min_secs=30;30
 
 ** 是否顯示 myapps dialog; (F=強制顯示;Y=有條件顯示;N=強制不顯示);安裝天數;speech次數;完成puzzle次數;完成VM卡張數
 show_myapps_flag=Y;0;30;8;5^Y;0;44;13;7
 	
-** Card;Quiz
-ad_full_on_off_flag=Y;Y
+** Card;Quiz;Memory
+ad_full_on_off_flag=Y;Y;Y
 
 * 是否在Card顯示AD,F=強制顯示,Y=有條件顯示,N=強制不顯示,R=等待內評&&安裝天數&&(speech次數||拼圖完成次數||VM完成張數)
 ad_card_flag=Y;0;50;12;6
 
 * 是否在Quiz顯示AD,F=強制顯示,Y=有條件顯示,N=強制不顯示,R=等待內評&&安裝天數;banner免費次數;全頁廣告計次0=OFF;無Internet提示
 ad_quiz_flag=Y;0;5;7;20^Y;0;5;8;20
+
+* 是否在Memory顯示AD, [F=強制顯示,Y=有條件顯示,N=強制不顯示];[安裝天數];[免費次數];[全頁廣告計次0=OFF]
+ad_memory_flag=Y;0;5;5
 
 * 2023.6.26 增加用於有兩個廣告ID, _0(原有) & banner1(中等限價) , 當_0顯示超過該次數, 則重新reload ad_banner1(中等限價)
 ad_banner1_reload_count=5
