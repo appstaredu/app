@@ -43,14 +43,14 @@ fga_enabled=Y
 ad_banner_on_off_flag=N;N;Y;N;N;Y;Y;Y;Y^N;N;Y;N;N;Y;Y;Y;Y
 
 ** add from 2022-11-11 取代 ad_banner_on_off_flag
-** Home;Collection;Card;Puzzle,Quiz;MemoryMain;MemoryPlay
-ad_banner_on_off_flag_v2=N;N;Y;Y;Y;Y;Y
+** Home;Collection;Card;Puzzle,Quiz;Memory
+ad_banner_on_off_flag_v2=N;N;Y;Y;Y;Y
 
 offline_cards=5
 ad_full_count=11
 
-** 全頁廣告從關閉到顯示最短間隔秒數, [Card;Quiz], add at 2022-11-9 v1.3
-ad_full_req_min_secs=30;30
+** 全頁廣告從關閉到顯示最短間隔秒數, [Card;Quiz;Memory], add at 2022-11-9 v1.3
+ad_full_req_min_secs=30;30;30
 
 ** 是否顯示 myapps dialog; (F=強制顯示;Y=有條件顯示;N=強制不顯示);安裝天數;speech次數;完成puzzle次數;完成VM卡張數
 show_myapps_flag=Y;0;30;8;5^Y;0;44;13;7
