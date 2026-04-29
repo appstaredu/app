@@ -45,6 +45,8 @@ ad_banner_on_off_flag=N;N;Y;N;N;Y;Y;Y;Y^N;N;Y;N;N;Y;Y;Y;Y
 ** add from 2022-11-11 取代 ad_banner_on_off_flag
 ** Home;Collection;Card;Puzzle,Quiz;Memory
 ad_banner_on_off_flag_v2=N;N;Y;Y;Y;Y
+** add from 2026.4.28  "C" 表示可收合的廣告
+ad_banner_on_off_flag_v3=N;Y;Y;Y;Y;C
 
 offline_cards=5
 ad_full_count=11
@@ -76,3 +78,8 @@ ad_delay_show=1.1
 ** 只用在abc, 注音
 ** home promote card, Y=ON;至少已經安裝天數;至少Click數量
 home_promote_flag=Y;0;50
+
+** add from 2026.4.28
+** 列出的國家廣告優先選擇 1=高收益(中等限價), 否則選擇 0=低收入(最佳化) ,
+ad_high_country_list=us,ch,at,ca,sg,au,jp,nz,tw,hk,de,kr,fr,gb,be,fi,dk,no,nl,il,sk,ae
+
